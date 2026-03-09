@@ -1,5 +1,4 @@
 /**
- * 1. UUID 配置：请修改为您自己的 UUID,地址后面加上UUID会返回Hello World!
  节点模板：
  {
   "type": "vless",
@@ -24,6 +23,7 @@
     }
   }
 }
+ * 1. UUID 配置：请修改k1为您自己的 UUID,地址后面加上UUID会返回Hello World!
  */
 const k1 = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
