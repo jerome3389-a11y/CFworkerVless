@@ -13,27 +13,5 @@ const p1 = ["google.com", "apple.com"];
  */
 const s1 = 'www.bing.com';
 
-节点模板：
-{
-  "type": "vless",
-  "tag": "CFworkerVless",
-  "server": "替换为你的优选IP或域名",
-  "server_port": 443,
-  "uuid": "你的UUID",
-  "packet_encoding": "", 
-  "tls": {
-    "enabled": true,
-    "server_name": "你的Worker域名",
-    "utls": {
-      "enabled": true,
-      "fingerprint": "chrome"
-    }
-  },
-  "transport": {
-    "type": "ws",
-    "path": "/你的UUID",
-    "headers": {
-      "Host": "你的Worker域名"
-    }
-  }
-}
+节点模板：到JS文件里看
+
